@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:  #eff4ff;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        .form-box{
+            /* border: 2px solid blue; */
+            /* justify-content: center;
+            align-items: center; */
+            text-align: center;
+            font-size: 25px;
+            color: blue;
+            margin: 250px;
+            width: 380px;
+            margin-left: 50rem;
+            padding: 30px;
+            padding-left: 20px;
+            /* margin-right: 10px; */
+            font-weight: bold;
+            border-radius: 20px;
+            /* box-shadow: 3px 5px green 4px 6px red; */
+            box-shadow: 5px 10px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(255 255 255);
+
+            
+        }
+
+        .form{
+            /* border: 2px solid rgb(1, 1, 250); */
+            width: 103px;
+            padding: 30px;
+            margin-left: 70px;
+            text-align: center;
+            border-radius: 20px;
+            padding-right: 156px;
+            /* box-shadow: 3px 5px green 4px 6px red; */
+            box-shadow: 5px 5px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(255 255 255);
+        }
+
+        input[type=text]{
+            border-radius: 20px;
+            font-size: 15px;
+            padding: 5px;
+            margin: 5px;
+            /* box-shadow: 5px 10px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(255 255 255); */
+            box-shadow:inset -2px -2px 6px rgb(59 59 59 / 18%), inset 2px 2px 6px rgb(129 154 181 / 43%);
+            border-color: blue;
+        }
+
+        input[type=password]{
+            border-radius: 20px;
+            font-size: 15px;
+            padding: 5px;
+            margin: 5px;
+            /* box-shadow: 5px 10px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(255 255 255); */
+            box-shadow:inset -2px -2px 6px rgb(59 59 59 / 18%), inset 2px 2px 6px rgb(129 154 181 / 43%);
+            border-color: blue;
+        }
+
+        #login-button{
+            width: 222%;
+            font-size: 17px;
+            border-radius: 20px;
+            padding: 5px;
+            border-color: blue;
+            color: blue;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        #forget{
+            width: 215px;
+            padding: -13px;
+            margin: 20px;
+            margin-right: 80px;
+        }
+
+        #CreateAccount-button{
+            width: 50%;
+            font-size: 17px;
+            border-radius: 20px;
+            padding: 5px;
+            border-color: blue;
+            color: rgb(255, 255, 255);
+            background-color: blue;
+            cursor: pointer;
+            margin-left: 50px;
+            font-weight: bold;
+            
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <p>Hello:)!</p>
+       
+        <div class="form">
+            <form action="">
+                <label for="username" id="username-label">Username <br>
+                    <input type="text" name="" id="username" placeholder="email.com">
+                </label>
+                
+                <label for="password" id="password-label"> <br> Password 
+                   <br> <input type="password" name="" id="password" placeholder="*******">
+                </label>
+
+                <label for="login" id="login-label"> <br>
+                   <input type="button" value="Login" id="login-button">
+                </label>
+                <p id="forget">Forget password?</p>
+            </form>
+        </div>
+        <label for="create-acc" id="create-acc-label"> <br>
+            <input type="button" value="Create Account" id="CreateAccount-button">
+         </label>
+    </div>
+</body>
+</html>

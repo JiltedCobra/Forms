@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-slamBook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
+</head>
+<style>
+    *{
+   box-sizing: border-box;
+  
+}
+
+
+
+.content{
+    background-color: rgba(70, 70, 70, 0.527);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 300px;
+}
+.heading{
+    font-family:'Dancing Script';
+    font-style: italic;
+    font-weight: 2000;
+    font-size: 60px;
+}
+input[type="submit"]{
+   border: thick double;
+   background-color:rgb(97, 100, 99);
+   font-size: x-large;
+   font-weight: 700;
+   font-style: oblique;
+   cursor:grabbing;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(66, 66, 66);
+
+}
+
+
+</style>
+<body>
+    <form action="">
+        <div class="content">
+          <h1 class="heading">Welcome to my e-slam Book</h1>
+          <p>Name:- *<input type="text" name="name" required placeholder="Enter your name here"></p>
+          <p>I call you as:- <input type="text" placeholder="Nickname"></p>
+          <p>Friends call you as:- <input type="text" placeholder="Nickname"></p>
+          <p> Birth Date:- *<input type="date" required></p>
+          <p>Upload your photo:- *<input type="file" required placeholder="Enter your contact number"></p>
+          <p>Contact Number:- *<input type="number" required></p>
+          <p>Address: <textarea name="address" id="address" cols="40" rows="5" placeholder="Enter your address "></textarea></p>
+          <p>Your favourite song:- <input type="text"></p>
+          <p>Your favourite movie:- <input type="text"></p>
+          <p>A gift which you like most:- <input type="text"></p>
+          <p>An advice for me:- <input type="text"></p>
+          <p>Feedback regarding this e-slam book:-<input type="text"></p>
+          <input type="submit" value="Submit">
+
+     </div>
+    </form>  
+</body>
+</html>

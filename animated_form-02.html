@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    
+    <script
+      src="https://kit.fontawesome.com/1b7b99c9be.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      * {
+        
+        background-color: #ecf0f3;
+      }
+
+      .form-box {
+        /* border: 2px solid orange; */
+        text-align: center;
+        margin-top: 200px;
+        padding: 24px 3px;
+        margin: 255px 750px;
+        border-radius: 20px;
+        box-shadow: 7px 3px 8px rgb(163, 159, 159),
+          -12px -6px 10px rgb(255 255 255);
+        height: 513px;
+        font-family: "Lato", sans-serif;
+      }
+
+      .logo img {
+        border-radius: 50%;
+        box-shadow: 7px 3px 8px rgb(163, 159, 159);
+      }
+
+      .title {
+        color: rgb(122, 115, 115);
+        font-size: 30px;
+        font-weight: lighter;
+        margin-top: 18px;
+        outline: none !important;
+      }
+
+      .sub-title {
+        color: rgb(122, 115, 115);
+        margin: 8px 3px;
+      }
+
+      input[type="text"] {
+        width: 250px;
+        border-radius: 27px;
+        font-size: 17px;
+        padding: 8px;
+        margin: 20px 3px;
+        box-shadow: 7px 3px 8px rgb(163, 159, 159);
+        outline: none !important;
+        border-color: #ecf0f3;
+        outline: none !important;
+      }
+
+      input[type="password"] {
+        border-radius: 27px;
+        font-size: 17px;
+        padding: 8px;
+        margin: 1px 3px;
+        box-shadow: 7px 3px 8px rgb(163, 159, 159),
+          inset 2px 3px 5px rgb(231, 226, 226);
+        width: 250px;
+        border-color: #ecf0f3;
+        outline: none !important;
+      }
+
+      .login {
+        border-radius: 27px;
+        font-size: 22px;
+        padding: 10px;
+        margin: 40px 3px;
+        width: 62%;
+        background-color: rgb(253, 105, 51);
+        color: white;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+        outline: none !important;
+       
+      }
+
+      .login:hover {
+        cursor: pointer;
+        background-color: rgb(34, 31, 31);
+
+      }
+      a{
+        text-decoration: none;
+        color: rgb(122, 115, 115);
+        font-size: 17px;
+        font-family: "Lato", sans-serif;
+      }
+      a:hover {
+        cursor: pointer;
+        color: rgb(70, 66, 66);
+
+      }
+
+      ::placeholder {
+        color: rgb(160, 156, 156);
+        outline: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-box">
+      <div class="form">
+        <div class="logo">
+          <img src="logo.jpg" alt="" />
+        </div>
+
+        <div class="title">Chat App</div>
+
+        <div class="sub-title">B E T A</div>
+
+        <label for="username" id="username-label">
+          <input
+            type="text"
+            name=""
+            id="username"
+            placeholder="  &#xF007;   username "
+            style="font-family: Arial, FontAwesome"
+          />
+        </label>
+        <br />
+
+        <label for="password" id="password-label">
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="  &#xf023;  *******"
+            style="font-family: Arial, FontAwesome"
+          />
+        </label>
+        <br />
+
+        <button class="login">Login</button>
+        <br />
+        <a href="#">Forget password?</a>
+        <a href="#"> <strong>or</strong> Sign up</a>
+      </div>
+    </div>
+  </body>
+</html>
