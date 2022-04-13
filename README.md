@@ -1,7 +1,7 @@
 # Forms
 
-AnimatedF![animated-form01](https://user-images.githubusercontent.com/99410623/163176446-a347d2cb-7592-46dd-8cd3-8af567af0071.png)
-orm-01
+AnimatedForm-01![animated-form01](https://user-images.githubusercontent.com/99410623/163176446-a347d2cb-7592-46dd-8cd3-8af567af0071.png)
+
 
 Survey-Form ![Survey-form](https://user-images.githubusercontent.com/99410623/163176674-744d650f-2fd1-4186-92d8-83b57266b0e2.png)
 
